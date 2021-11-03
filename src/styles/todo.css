@@ -1,0 +1,35 @@
+.todo-card {
+    width: 22%;
+    margin-top: 20px;
+    padding: .5rem;
+
+}
+
+.todo-title {
+    font-size: 1rem;
+    width: 80%;
+}
+
+.todo-actions {
+    width: 20%;
+    text-align: right;
+    padding: .5rem;
+}
+
+.todo-actions .complete {
+    color: bisque;
+    background-color: #D57E7E;
+    padding: 2px 5px;
+    outline: none;
+    border: 1px solid #D57E7E;
+    border-radius: 10px;
+}
+
+.todo-actions .reset {
+    color: bisque;
+    background-color: #c6d57e;
+    padding: 2px 5px;
+    outline: none;
+    border: 1px solid #c6d57e;
+    border-radius: 10px;
+}
