@@ -2,7 +2,7 @@ import React from 'react'
 
 import "../styles/todo.css"
 
-const Todo = ({title,status,handleCompleteTodo,id}) => {
+const Todo = ({title,status,handleCompleteTodo,id,}) => {
     return (
         <div className="todo-card">
             <div className="todo-title">

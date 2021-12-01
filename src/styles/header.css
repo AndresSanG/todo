@@ -5,8 +5,20 @@
     justify-content: center;
     align-items: center;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 .header-bar h2 {
     padding: 0;
+    width: 100vw;
+    text-align: center;
+}
+
+.button-container {
+    margin: auto;
+}
+
+.header-bar button {
+    width: 15vw;
+    padding: 0 3rem 0 3rem ;
 }
